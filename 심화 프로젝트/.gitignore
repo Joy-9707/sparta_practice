@@ -189,5 +189,8 @@ pyrightconfig.json
 *.xlsx
 
 git rm --cached *.csv
+git rm -r --cached .
+git add .
+git commit -m "Apply .gitignore"
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
